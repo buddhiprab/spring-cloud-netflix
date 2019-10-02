@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @RestController
-public class AccountService {
+public class AccountService2 {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AccountService2.class, args);
@@ -17,6 +17,6 @@ public class AccountService {
 
 	@GetMapping("/")
 	public String getAccount(){
-		return "account 2";
+		return "account 1";
 	}
 }

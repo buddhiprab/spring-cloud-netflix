@@ -43,6 +43,7 @@
 		<module>gateway</module>
 		<module>discovery</module>
 		<module>account</module>
+		<module>account2</module>
 	</modules>
 
 	<build>
