@@ -44,6 +44,7 @@
 		<module>discovery</module>
 		<module>account</module>
 		<module>account2</module>
+		<module>payment</module>
 	</modules>
 
 	<build>

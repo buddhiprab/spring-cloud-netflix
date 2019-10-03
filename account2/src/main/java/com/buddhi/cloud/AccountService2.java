@@ -17,6 +17,6 @@ public class AccountService2 {
 
 	@GetMapping("/")
 	public String getAccount(){
-		return "account 1";
+		return "account 2";
 	}
 }

@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @RestController
-public class AccountService {
+public class PaymentService {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccountService.class, args);
+		SpringApplication.run(PaymentService.class, args);
 	}
 
 	@GetMapping("/")
-	public String getAccount(){
-		return "account 1";
+	public String getPayment(){
+		return "payment 1";
 	}
 }
