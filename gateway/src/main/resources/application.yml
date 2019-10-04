@@ -13,3 +13,10 @@ eureka:
     register-with-eureka: true
   instance:
     prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
